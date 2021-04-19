@@ -1,0 +1,15 @@
+#test-area{
+    width:30vw;
+    height:30vw;
+    background-color:blue;
+    @include center;
+    border-style:dotted;
+    border-color:black;
+    div{
+        background-color:white;
+        
+        border-style:dotted;
+        border-color:black;
+        @include center;
+    }
+}
