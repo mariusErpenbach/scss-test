@@ -1,0 +1,17 @@
+#test-slider{
+    height:80vh;
+    width:60vw;
+    display:flex;
+    div{
+        height:100%;
+        width:50%;
+    }
+    #image-left{
+        background-image:url("../img/floral-2069810_1280.png");
+        flex:20;
+    }
+    #image-right{
+        background-image:url("../img/flowers-3215188_1920.jpg");
+        flex:80;
+    }
+}

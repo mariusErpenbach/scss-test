@@ -4,10 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href=".styles/main.css">
+    <link rel="stylesheet" href="./styles/main.css">
     <title>scss-test</title>
 </head>
 <body>
-    
+    <div id="test-area">
+        <div>hey</div>
+        <div>what's</div>
+        <div>going</div>
+        <div>on</div>
+    </div>
+    <div id="test-slider">
+        <div id="image-left"></div>
+        <div id="image-right"></div>
+        <input type="range" id="image-slider-input" min="1" max="100" value="50" oninput="changeFlexWidth(this.value)">
+    </div>
+    <script src="./scripts/index.js"></script>
 </body>
 </html>

@@ -1,3 +1,42 @@
+#test-area {
+  width: 30vw;
+  height: 30vw;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-style: dotted;
+  border-color: black;
+}
+#test-area div {
+  background-color: white;
+  border-style: dotted;
+  border-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+body {
+  background-color: green;
+}
+
+#test-slider {
+  height: 80vh;
+  width: 60vw;
+  display: flex;
+}
+#test-slider div {
+  height: 100%;
+  width: 50%;
+}
+#test-slider #image-left {
+  background-image: url("../img/floral-2069810_1280.png");
+  flex: 20;
+}
+#test-slider #image-right {
+  background-image: url("../img/flowers-3215188_1920.jpg");
+  flex: 80;
+}
 
 /*# sourceMappingURL=main.css.map */
